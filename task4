@@ -1,0 +1,11 @@
+Q1
+
+SELECT name
+FROM customers
+ORDER BY name asc;
+
+----------------------
+
+Q2
+
+
