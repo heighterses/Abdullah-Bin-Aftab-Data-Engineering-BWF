@@ -12,6 +12,15 @@ SELECT name, price
 FROM products
 ORDER BY price asc
 
+----------------------
+
+Q3
+
+SELECT name
+FROM suppliers
+WHERE name LIKE 'A%'
+ORDER BY name;
+
 
 
 
