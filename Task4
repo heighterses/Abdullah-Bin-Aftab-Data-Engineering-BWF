@@ -8,4 +8,11 @@ ORDER BY name asc;
 
 Q2
 
+SELECT name, price
+FROM products
+ORDER BY price asc
+
+
+
+
 
