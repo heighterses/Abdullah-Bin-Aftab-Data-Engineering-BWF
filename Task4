@@ -21,7 +21,12 @@ FROM suppliers
 WHERE name LIKE 'A%'
 ORDER BY name;
 
+-----------------------
 
+Q4
 
+SELECT *
+FROM items
+order by status asc
 
 
