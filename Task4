@@ -43,4 +43,12 @@ FROM (
 
 ORDER BY category, price
 
+-----------------------
+
+Q6
+
+SELECT NAME , PHONE
+from customers
+ORDER BY SUBSTRING(phone, -4);
+
 
