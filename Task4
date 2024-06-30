@@ -29,4 +29,18 @@ SELECT *
 FROM items
 order by status asc
 
+-----------------------
+
+Q5
+
+SELECT *
+FROM (
+	SELECT category, price,
+	case when price is null	 then 0 else 1  end as is_null
+	FROM products
+	
+)
+
+ORDER BY category, price
+
 
